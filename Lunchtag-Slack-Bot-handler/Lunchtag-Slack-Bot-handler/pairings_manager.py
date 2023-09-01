@@ -11,16 +11,9 @@ from io import BytesIO, StringIO
 
 from slack_client import send_message
 from user_management import save_users, load_users, update_user_history
-from config import all_blocks
+from config import all_blocks, BUCKET_NAME, ADDITIONAL_USERS, AVOID_ADJUSTMENT_WEIGHT, PROMOTE_ADJUSTMENT_WEIGHT, HISTORY_PENALTY, SELF_MATCH_PENALTY
 
 s3 = boto3.client('s3')
-
-BUCKET_NAME = 'lunchtag-slack-bot-user-data'
-ADDITIONAL_USERS = ['U03UFPNSDT6', 'U03UFPNSDT6', 'U03UFPNSDT6']
-AVOID_ADJUSTMENT_WEIGHT = 1000
-PROMOTE_ADJUSTMENT_WEIGHT = 10
-HISTORY_PENALTY = 100
-SELF_MATCH_PENALTY = 10000
 
 def generate_pairings():
     """ Generate pairings of users based on their compatibility scores. """
@@ -192,11 +185,9 @@ def publish_and_send_dm():
         send_message(user2_id, "Before the next Lunchtag pairings, please complete the survey below!", 
                       blocks=all_blocks['survey'])
 
-        user_data[user1_id]['history'][meeting_date] = user_data[user1_id]['history'].setdefault(meeting_date, "")
-        user_data[user1_id]['history'][meeting_date] += user2_id
+        user_data[user1_id]['history'][meeting_date] = ", " + user2_id if meeting_date in user_data[user1_id]['history'].keys() else user2_id
+        user_data[user2_id]['history'][meeting_date] = ", " + user1_id if meeting_date in user_data[user2_id]['history'].keys() else user1_id
 
-        user_data[user2_id]['history'][meeting_date] = user_data[user2_id]['history'].setdefault(meeting_date, "")
-        user_data[user2_id]['history'][meeting_date] += user1_id
 
     save_users(user_data)
 

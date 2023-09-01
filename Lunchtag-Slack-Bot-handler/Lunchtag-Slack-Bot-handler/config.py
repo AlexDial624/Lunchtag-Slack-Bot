@@ -1,5 +1,16 @@
 import os
 
+
+BUCKET_NAME = 'lunchtag-slack-bot-user-data'
+ADDITIONAL_USERS = ['U03UFPNSDT6', 'U03UFPNSDT6', 'U03UFPNSDT6']
+AVOID_ADJUSTMENT_WEIGHT = 1000
+PROMOTE_ADJUSTMENT_WEIGHT = 10
+HISTORY_PENALTY = 100
+SELF_MATCH_PENALTY = 10000
+
+specific_users = ["U03UFPNSDT6", "U03UD78Q7MZ"]
+admin_users = ["U03UFPNSDT6", "U03UD78Q7MZ"]
+
 SLACK_BOT_TOKEN = os.getenv('SLACK_BOT_TOKEN')
 
 messages = {'invite': "Would you like to join the LunchTag program?",
@@ -36,9 +47,6 @@ messages = {'invite': "Would you like to join the LunchTag program?",
 
 }
 
-
-specific_users = ["U03UFPNSDT6", "U03UD78Q7MZ"]
-admin_users = ["U03UFPNSDT6", "U03UD78Q7MZ"]
 
 
 true = True
