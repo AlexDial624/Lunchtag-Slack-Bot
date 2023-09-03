@@ -9,7 +9,7 @@ New members receive this invite
 
 If they decline, they can change their mind to accept
 ![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/a02f5bff-27d7-4d9a-a954-204488e87753)
-![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/f83ec0d6-9205-4cac-a921-977313fb9c97)
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/01fbc9f1-c7c9-46c6-ac02-95f695d80388)
 
 
 
