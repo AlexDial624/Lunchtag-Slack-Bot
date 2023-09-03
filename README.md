@@ -36,6 +36,8 @@ All admin commands are controlled through the admin prefix.
 
 Admins generate pairings with:
 • /lunchtag-admin generate {tiny, short, full} -> provides sized response file of existing pairings
+• /lunchtag-admin generate {tiny, short, full} -> provides sized response file of existing pairings
+• /lunchtag-admin generate {tiny, short, full} -> provides sized response file of existing pairings
 
 Pairings are generated with the following algorithm:
   Compute a compatibility score between all confirmed members for this week of Lunchtag with the following policies
