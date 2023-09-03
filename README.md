@@ -35,16 +35,23 @@ All admin commands are controlled through the admin prefix.
 **How does pairings work?**
 
 Admins generate pairings with:
-.• /lunchtag-admin generate {tiny, short, full} -> provides sized response file of existing pairings
+
+• /lunchtag-admin generate {tiny, short, full} -> provides sized response file of existing pairings
 
 Pairings are generated with the following algorithm:
   
 Compute a compatibility score between all confirmed members for this week of Lunchtag with the following policies
-.• +1 point per mutual interest
-.• +10 point if user #1 expressed interest in being paired with user #2, and vice versa
-.• -100 points if these users have already been paired before
-.• -1000 points if user #1 expressed a preference to avoid being paired with user #2, and vice versa
-.• -10000 points if user #1 is the same person as user #2
+
+ • +1 point per mutual interest
+
+ • +10 point if user #1 expressed interest in being paired with user #2, and vice versa
+
+ • -100 points if these users have already been paired before
+
+ • -1000 points if user #1 expressed a preference to avoid being paired with user #2, and vice versa
+
+ • -10000 points if user #1 is the same person as user #2
+
 Then, use the Hungarian algorithm to assign pairings so as to maximize the total compatibility score.
 
 Admins can also swap users around using admin commands, and in the config of the application can define users that should be given multiple pairings, to have multiple 1x1s in a given pairing.
