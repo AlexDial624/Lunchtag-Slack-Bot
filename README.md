@@ -29,6 +29,8 @@ Users can also view their account details and update their profile interests.
 **Admin Experience**
 
 All admin commands are controlled through the admin prefix.
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/f49dbfda-32eb-4daa-bd00-969cfaa0cc7e)
+
 
 **How does pairings work?**
 
@@ -42,9 +44,9 @@ Pairings are generated with the following algorithm:
   • -100 points if these users have already been paired before
   • -1000 points if user #1 expressed a preference to avoid being paired with user #2, and vice versa
   • -10000 points if user #1 is the same person as user #2
-  Then, use the hungarian algorithm to assign pairings so as to maximize the total compatibility score.
+  Then, use the Hungarian algorithm to assign pairings so as to maximize the total compatibility score.
 
-Admins can also swap users around
+Admins can also swap users around using admin commands, and in the config of the application can define users that should be given multiple pairings, to have multiple 1x1s in a given pairing.
 
 **How does the code work?**
 
