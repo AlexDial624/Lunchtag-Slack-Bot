@@ -15,8 +15,12 @@ If they decline, they can change their mind to accept
 
 
 Once joined, they instantly can set their interests and other preferences.
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/f8b65754-d0b8-4db4-9ee1-ce6a8eb03998)
 
 When the next round of lunchtag begins, they are asked to confirm their interest.
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/b6e41648-056a-4d33-a478-9f20fa208081)
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/727a0846-7c01-4ea9-84ce-8fff58d5cc92)
+
 
 Once the admin has generated and published the pairings, they receive their pairing as well as a survey.
 
