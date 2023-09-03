@@ -8,6 +8,8 @@ New members receive this invite
 
 
 If they decline, they can change their mind to accept
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/62a0e269-8c62-412d-9ef7-593ab8ebc5c2)
+
 
 Once joined, they instantly can set their interests and other preferences.
 
