@@ -39,8 +39,11 @@ Admins generate pairings with:
 
 Pairings are generated with the following algorithm:
   Compute a compatibility score between all confirmed members for this week of Lunchtag with the following policies
+ 
   • +1 point per mutual interest
+  
   • +10 point if user #1 expressed interest in being paired with user #2, and vice versa
+  
   • -100 points if these users have already been paired before
   • -1000 points if user #1 expressed a preference to avoid being paired with user #2, and vice versa
   • -10000 points if user #1 is the same person as user #2
