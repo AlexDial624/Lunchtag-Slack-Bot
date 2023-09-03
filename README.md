@@ -4,7 +4,8 @@ A comprehensive Slack Bot to manage a weekly 1x1 pairing program for the Effecti
 **Member Experience**
 
 New members receive this invite
-![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/7d395fde-dd81-46f0-8cf6-eeb817cc27e6)
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/5ec2895b-b1cf-4941-8a04-6fe9f12f8063)
+
 
 If they decline, they can change their mind to accept
 
