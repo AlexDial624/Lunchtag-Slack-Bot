@@ -30,7 +30,7 @@ Users can also view their account details and update their profile interests.
 **Admin Experience**
 
 All admin commands are controlled through the admin prefix.
-![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/f49dbfda-32eb-4daa-bd00-969cfaa0cc7e)
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/3596f2f8-1db1-47ef-a0ff-fdf21260ba3f)
 
 
 **How does pairings work?**
