@@ -8,21 +8,22 @@ New members receive this invite
 
 
 If they decline, they can change their mind to accept
-![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/a02f5bff-27d7-4d9a-a954-204488e87753)
-![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/01fbc9f1-c7c9-46c6-ac02-95f695d80388)
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/453ba40d-7f43-4ca2-ba23-bbc781f20a84)
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/7e04b10e-8196-4737-8cfc-08856dcb6225)
 
 
 
 
 Once joined, they instantly can set their interests and other preferences.
-![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/f8b65754-d0b8-4db4-9ee1-ce6a8eb03998)
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/d014685a-92b2-47c2-bd0e-021673d433d2)
 
-When the next round of lunchtag begins, they are asked to confirm their interest.
-![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/b6e41648-056a-4d33-a478-9f20fa208081)
-![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/727a0846-7c01-4ea9-84ce-8fff58d5cc92)
+When the next round of lunchtag begins, they are asked to confirm their availability.
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/4dc34544-7383-4d0b-8511-e50eef98201a)
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/d5eafb0f-377b-41cc-b302-0b882c8deb12)
 
 
 Once the admin has generated and published the pairings, they receive their pairing as well as a survey.
+![image](https://github.com/AlexDial624/Lunchtag-Slack-Bot/assets/29134239/d46b9f28-c4b8-4107-9675-78d02b96eda0)
 
 Users can also view their account details and update their profile interests. 
 
